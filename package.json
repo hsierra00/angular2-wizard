@@ -1,6 +1,6 @@
 {
-  "name": "angular2-wizard",
-  "version": "0.3.0",
+  "name": "chronos-angular-wizard-form",
+  "version": "0.1.0",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
@@ -10,13 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maiyaporn/angular2-wizard"
+    "url": "https://github.com/hsierra00/chronos-angular-wizard-form"
   },
   "author": {
-    "name": "Maiyaporn Phanich",
-    "email": "p.maiyaporn@gmail.com"
+    "name": "hsierra00",
+    "email": "hsierra00@gmail.com"
   },
   "keywords": [
+    "chronos",
+    "wizard",
     "angular2-wizard",
     "form-wizard",
     "wizard",
@@ -26,7 +28,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maiyaporn/angular2-wizard/issues"
+    "url": "https://github.com/hsierra00/chronos-angular-wizard-form/issues"
   },
   "main": "./dist/index.js",
   "dependencies": {
