@@ -6,9 +6,9 @@ import { WizardStepComponent } from './wizard-step.component';
   template:
   `<div class="card">
     <div class="card-header">
-      <ul class="nav nav-justified">
+      <ul class="nav nav-fill">
         <li class="nav-item" *ngFor="let step of steps" [ngClass]="{'active': step.isActive, 'enabled': !step.isDisabled, 'disabled': step.isDisabled, 'completed': isCompleted}">
-          <a (click)="goToStep(step)">{{step.title}} <i>class="step.iHeader"</i></a>
+          <a (click)="goToStep(step)">{{step.title}} <i class="{{step.iHeader}}"></i></a>
         </li>
       </ul>
     </div>
