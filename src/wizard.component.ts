@@ -8,7 +8,7 @@ import { WizardStepComponent } from './wizard-step.component';
     <div class="card-header">
       <ul class="nav nav-justified">
         <li class="nav-item" *ngFor="let step of steps" [ngClass]="{'active': step.isActive, 'enabled': !step.isDisabled, 'disabled': step.isDisabled, 'completed': isCompleted}">
-          <a (click)="goToStep(step)">{{step.title}}</a>
+          <a (click)="goToStep(step)">{{step.title}}<i>class="step.iHeader"</i></a>
         </li>
       </ul>
     </div>

@@ -11,6 +11,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 })
 export class WizardStepComponent {
   @Input() title: string;
+  @Input() iHeader: string;
   @Input() hidden: boolean = false;
   @Input() isValid: boolean = true;
   @Input() showNext: boolean = true;
